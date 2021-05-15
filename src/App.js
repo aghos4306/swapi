@@ -1,6 +1,6 @@
 
 //import './App.css';
-import SearchForm from './SearchForm'
+import SearchForm from './Form/SearchForm'
 
 function App() {
   return (
