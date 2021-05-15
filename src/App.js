@@ -1,12 +1,19 @@
 
 //import './App.css';
 import SearchForm from './Form/SearchForm'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-     <SearchForm />
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact>
+         <SearchForm />
+        </Route>
+      </Switch>
+    </Router>
+    
+   
   );
 }
 
