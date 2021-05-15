@@ -1,10 +1,11 @@
 
 import './App.css';
+import SearchForm from './SearchForm'
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello From swapi</h1>
+     <SearchForm />
     </div>
   );
 }
