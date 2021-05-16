@@ -17,7 +17,7 @@ const AppProvider = ({ children }) => {
         try {
             const response = await fetch(url)
             const data = await response.json()
-            //console.log(data.results[0].name)
+            console.log(data)
             setSwapiContent(data.results)
             setError({ show: false, msg: '' })
             setIsLoading(false)

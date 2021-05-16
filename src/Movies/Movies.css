@@ -1,0 +1,41 @@
+.movies {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  display: grid;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  .movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.story {
+  background: white;
+  border-radius: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.name {
+  line-height: 1.5;
+  margin-bottom: 0.25rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(31, 20, 20);
+}
+
+.starship {
+  margin-bottom: 0.5rem;
+  color: hsl(210, 22%, 49%);
+}
+
+.read-link {
+  font-size: 0.85rem;
+  margin-right: 0.75rem;
+  text-transform: capitalize;
+  color: hsl(205, 78%, 60%);
+}
